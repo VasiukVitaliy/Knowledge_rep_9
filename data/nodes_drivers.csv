@@ -1,0 +1,26 @@
+uid,subtype,code,name_uk,name_en,license_category,route_preference,travel_history,source,synthetic
+DRV_9042,,DRV-9042,Водій DRV-9042,Driver DRV-9042,B,shortest distance,8 trips/week,ontology:lab7,false
+DRV_9041,,DRV-9041,Водій DRV-9041,Driver DRV-9041,B,fastest time,12 trips/week,ontology:lab7,false
+DRV_9043,,DRV-9043,Водій DRV-9043,Driver DRV-9043,B,avoid cobblestone,5 trips/week,ontology:lab7,false
+DRV_9045,,DRV-9045,Водій DRV-9045,Driver DRV-9045,D,fixed timetable,40 trips/week,ontology:lab7,false
+DRV_9044,,DRV-9044,Водій DRV-9044,Driver DRV-9044,C,avoid city centre,20 trips/week,ontology:lab7,false
+DRV_9046,,DRV-9046,Водій DRV-9046,Driver DRV-9046,B,avoid cobblestone,4 trips/week,synthetic:seed42,true
+DRV_9047,,DRV-9047,Водій DRV-9047,Driver DRV-9047,C,avoid city centre,35 trips/week,synthetic:seed42,true
+DRV_9048,,DRV-9048,Водій DRV-9048,Driver DRV-9048,D,avoid cobblestone,10 trips/week,synthetic:seed42,true
+DRV_9049,,DRV-9049,Водій DRV-9049,Driver DRV-9049,B,shortest distance,39 trips/week,synthetic:seed42,true
+DRV_9050,,DRV-9050,Водій DRV-9050,Driver DRV-9050,B,shortest distance,8 trips/week,synthetic:seed42,true
+DRV_9051,,DRV-9051,Водій DRV-9051,Driver DRV-9051,C,shortest distance,33 trips/week,synthetic:seed42,true
+DRV_9052,,DRV-9052,Водій DRV-9052,Driver DRV-9052,D,fastest time,9 trips/week,synthetic:seed42,true
+DRV_9053,,DRV-9053,Водій DRV-9053,Driver DRV-9053,B,avoid cobblestone,31 trips/week,synthetic:seed42,true
+DRV_9054,,DRV-9054,Водій DRV-9054,Driver DRV-9054,B,avoid cobblestone,36 trips/week,synthetic:seed42,true
+DRV_9055,,DRV-9055,Водій DRV-9055,Driver DRV-9055,C,shortest distance,27 trips/week,synthetic:seed42,true
+DRV_9056,,DRV-9056,Водій DRV-9056,Driver DRV-9056,D,fastest time,39 trips/week,synthetic:seed42,true
+DRV_9057,,DRV-9057,Водій DRV-9057,Driver DRV-9057,B,avoid city centre,24 trips/week,synthetic:seed42,true
+DRV_9058,,DRV-9058,Водій DRV-9058,Driver DRV-9058,B,avoid city centre,11 trips/week,synthetic:seed42,true
+DRV_9059,,DRV-9059,Водій DRV-9059,Driver DRV-9059,C,fastest time,33 trips/week,synthetic:seed42,true
+DRV_9060,,DRV-9060,Водій DRV-9060,Driver DRV-9060,D,shortest distance,18 trips/week,synthetic:seed42,true
+DRV_9061,,DRV-9061,Водій DRV-9061,Driver DRV-9061,B,shortest distance,22 trips/week,synthetic:seed42,true
+DRV_9062,,DRV-9062,Водій DRV-9062,Driver DRV-9062,B,fastest time,39 trips/week,synthetic:seed42,true
+DRV_9063,,DRV-9063,Водій DRV-9063,Driver DRV-9063,C,avoid city centre,12 trips/week,synthetic:seed42,true
+DRV_9064,,DRV-9064,Водій DRV-9064,Driver DRV-9064,D,avoid city centre,18 trips/week,synthetic:seed42,true
+DRV_9065,,DRV-9065,Водій DRV-9065,Driver DRV-9065,B,avoid cobblestone,38 trips/week,synthetic:seed42,true

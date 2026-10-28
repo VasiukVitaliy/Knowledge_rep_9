@@ -1,0 +1,808 @@
+{
+ "nodes": 227,
+ "relationships": 486,
+ "labels": {
+  "RoadInfrastructureElement": 54,
+  "Intersection": 23,
+  "RoadSegment": 31,
+  "SensorDevice": 24,
+  "VideoCamera": 12,
+  "InductiveLoop": 6,
+  "RadarSensor": 6,
+  "TrafficLight": 17,
+  "PublicTransport": 6,
+  "Vehicle": 34,
+  "PassengerCar": 13,
+  "EmergencyCar": 9,
+  "Truck": 6,
+  "Driver": 25,
+  "TrafficAccident": 13,
+  "TrafficEvent": 26,
+  "TrafficCongestion": 13,
+  "Route": 15,
+  "DataAnalysis": 8,
+  "DataProcess": 32,
+  "DataCollection": 8,
+  "Planning": 8,
+  "Control": 8
+ },
+ "rel_types": {
+  "CONNECTS_TO": 61,
+  "DETECTS": 47,
+  "MOUNTED_ON": 24,
+  "REGISTERS": 27,
+  "REGULATES": 17,
+  "CROSSES": 19,
+  "MOVES_ALONG": 33,
+  "RESPONDS_TO": 9,
+  "INVOLVED_IN": 20,
+  "DRIVES": 25,
+  "CAUSES": 13,
+  "OCCURS_ON": 26,
+  "AFFECTS_ROUTE": 22,
+  "PASSES_THROUGH": 51,
+  "RECOMMENDED_TO": 15,
+  "CLASSIFIES": 26,
+  "IS_BASIS_FOR": 16,
+  "SUPPLIES_DATA_TO": 8,
+  "PRODUCES_ROUTE": 8,
+  "ADJUSTS": 8,
+  "NOTIFIES": 3,
+  "RECOMMENDS_TO": 8
+ },
+ "real_nodes": 47,
+ "real_rels": 98,
+ "q01": [
+  [
+   "INC_317",
+   "collision",
+   "SEC_ST_07",
+   "false"
+  ],
+  [
+   "INC_319",
+   "collision",
+   "SEC_ST_11",
+   "false"
+  ],
+  [
+   "INC_323",
+   "breakdown",
+   "SEC_ST_17",
+   "true"
+  ],
+  [
+   "INC_324",
+   "collision",
+   "SEC_ST_39",
+   "true"
+  ],
+  [
+   "INC_328",
+   "collision",
+   "SEC_ST_38",
+   "true"
+  ],
+  [
+   "INC_329",
+   "breakdown",
+   "SEC_ST_25",
+   "true"
+  ]
+ ],
+ "q02": {
+  "value": true,
+  "congestions": [
+   "CONG_881"
+  ]
+ },
+ "q03": [
+  [
+   "VideoCamera",
+   12
+  ],
+  [
+   "InductiveLoop",
+   6
+  ],
+  [
+   "RadarSensor",
+   6
+  ]
+ ],
+ "q04": [
+  [
+   "R_OPT_5",
+   "high",
+   [],
+   0
+  ],
+  [
+   "R_OPT_10",
+   "moderate",
+   [
+    "DRV_9058"
+   ],
+   1
+  ],
+  [
+   "R_OPT_11",
+   "high",
+   [
+    "DRV_9059"
+   ],
+   1
+  ],
+  [
+   "R_OPT_12",
+   "high",
+   [
+    "DRV_9064"
+   ],
+   1
+  ],
+  [
+   "R_OPT_13",
+   "low",
+   [
+    "DRV_9058"
+   ],
+   1
+  ],
+  [
+   "R_OPT_14",
+   "moderate",
+   [
+    "DRV_9059"
+   ],
+   1
+  ],
+  [
+   "R_OPT_15",
+   "moderate",
+   [
+    "DRV_9050"
+   ],
+   1
+  ],
+  [
+   "R_OPT_16",
+   "low",
+   [
+    "DRV_9062"
+   ],
+   1
+  ],
+  [
+   "R_OPT_17",
+   "low",
+   [
+    "DRV_9061"
+   ],
+   1
+  ],
+  [
+   "R_OPT_3",
+   "moderate",
+   [
+    "DRV_9041"
+   ],
+   1
+  ],
+  [
+   "R_OPT_6",
+   "high",
+   [
+    "DRV_9063"
+   ],
+   1
+  ],
+  [
+   "R_OPT_7",
+   "moderate",
+   [
+    "DRV_9053"
+   ],
+   1
+  ],
+  [
+   "R_OPT_8",
+   "moderate",
+   [
+    "DRV_9060"
+   ],
+   1
+  ],
+  [
+   "R_OPT_9",
+   "high",
+   [
+    "DRV_9054"
+   ],
+   1
+  ],
+  [
+   "R_ALT_1",
+   "low",
+   [
+    "DRV_9042",
+    "DRV_9044"
+   ],
+   2
+  ]
+ ],
+ "q05": [
+  [
+   "INC_320",
+   [
+    "R_OPT_10",
+    "R_OPT_3"
+   ],
+   2
+  ],
+  [
+   "INC_321",
+   [
+    "R_OPT_11",
+    "R_OPT_15"
+   ],
+   2
+  ],
+  [
+   "INC_322",
+   [
+    "R_OPT_12",
+    "R_OPT_17"
+   ],
+   2
+  ],
+  [
+   "INC_323",
+   [
+    "R_OPT_16",
+    "R_OPT_7"
+   ],
+   2
+  ],
+  [
+   "INC_324",
+   [
+    "R_OPT_11",
+    "R_OPT_5"
+   ],
+   2
+  ],
+  [
+   "INC_325",
+   [
+    "R_OPT_16",
+    "R_OPT_5"
+   ],
+   2
+  ],
+  [
+   "INC_326",
+   [
+    "R_OPT_14",
+    "R_OPT_5"
+   ],
+   2
+  ],
+  [
+   "INC_327",
+   [
+    "R_OPT_11",
+    "R_OPT_12"
+   ],
+   2
+  ],
+  [
+   "INC_328",
+   [
+    "R_OPT_16",
+    "R_OPT_17"
+   ],
+   2
+  ],
+  [
+   "INC_329",
+   [
+    "R_ALT_1",
+    "R_OPT_3"
+   ],
+   2
+  ],
+  [
+   "INC_317",
+   [
+    "R_OPT_3"
+   ],
+   1
+  ],
+  [
+   "INC_319",
+   [
+    "R_OPT_5"
+   ],
+   1
+  ]
+ ],
+ "q06": [
+  [
+   "INT_LV_07",
+   1
+  ],
+  [
+   "INT_LV_21",
+   1
+  ],
+  [
+   "INT_LV_39",
+   1
+  ],
+  [
+   "INT_LV_22",
+   2
+  ],
+  [
+   "INT_LV_38",
+   2
+  ],
+  [
+   "INT_LV_23",
+   3
+  ],
+  [
+   "INT_LV_37",
+   3
+  ]
+ ],
+ "q07": {
+  "path_example": [
+   "INT_LV_07",
+   "SEC_ST_03",
+   "INT_LV_21",
+   "SEC_ST_14",
+   "INT_LV_22",
+   "SEC_ST_15",
+   "INT_LV_23",
+   "SEC_ST_16",
+   "INT_LV_24",
+   "SEC_ST_17",
+   "INT_LV_25",
+   "SEC_ST_34",
+   "INT_LV_28",
+   "SEC_ST_21",
+   "INT_LV_29",
+   "SEC_ST_22",
+   "INT_LV_30"
+  ],
+  "segments": 8,
+  "note": "при кількох найкоротших шляхах Neo4j повертає один довільний; перевіряйте довжину"
+ },
+ "q08": [
+  [
+   "DRV_9041",
+   "BC1234AA",
+   [
+    "INC_317"
+   ]
+  ],
+  [
+   "DRV_9043",
+   "BC7410HM",
+   [
+    "INC_319"
+   ]
+  ],
+  [
+   "DRV_9046",
+   "BC4000IT",
+   [
+    "INC_329"
+   ]
+  ],
+  [
+   "DRV_9048",
+   "BC4074HP",
+   [
+    "INC_329"
+   ]
+  ],
+  [
+   "DRV_9049",
+   "BC4111IT",
+   [
+    "INC_328"
+   ]
+  ],
+  [
+   "DRV_9050",
+   "BC4148IT",
+   [
+    "INC_324"
+   ]
+  ],
+  [
+   "DRV_9060",
+   "BC4518KA",
+   [
+    "INC_328"
+   ]
+  ],
+  [
+   "DRV_9061",
+   "BC4555IT",
+   [
+    "INC_323"
+   ]
+  ],
+  [
+   "DRV_9065",
+   "BC4703HP",
+   [
+    "INC_323"
+   ]
+  ]
+ ],
+ "q09": [
+  [
+   "CONG_881",
+   "TrafficCongestion",
+   1
+  ],
+  [
+   "R_OPT_3",
+   "Route",
+   2
+  ],
+  [
+   "DRV_9041",
+   "Driver",
+   3
+  ]
+ ],
+ "q10": [
+  [
+   1,
+   "DataAnalysis",
+   [
+    "ANALYSIS_1"
+   ]
+  ],
+  [
+   2,
+   "Control",
+   [
+    "CONTROL_1"
+   ]
+  ],
+  [
+   2,
+   "Planning",
+   [
+    "PLANNING_1"
+   ]
+  ],
+  [
+   3,
+   "Driver",
+   [
+    "DRV_9041"
+   ]
+  ],
+  [
+   3,
+   "EmergencyCar",
+   [
+    "AMB_01"
+   ]
+  ],
+  [
+   3,
+   "Route",
+   [
+    "R_OPT_3"
+   ]
+  ],
+  [
+   3,
+   "TrafficLight",
+   [
+    "TL_12_A"
+   ]
+  ]
+ ],
+ "q11": [
+  [
+   "DETECTS",
+   "synthetic:seed42",
+   14,
+   0.75
+  ],
+  [
+   "REGISTERS",
+   "synthetic:seed42",
+   5,
+   0.76
+  ]
+ ],
+ "v1": [
+  [
+   "INC_317",
+   "R_OPT_3"
+  ],
+  [
+   "INC_319",
+   "R_OPT_5"
+  ]
+ ],
+ "v2": [
+  [
+   "CONG_881",
+   1
+  ],
+  [
+   "R_OPT_3",
+   2
+  ],
+  [
+   "DRV_9041",
+   3
+  ]
+ ],
+ "v3": [
+  [
+   "DRV_9041",
+   "BC1234AA",
+   "INC_317"
+  ],
+  [
+   "DRV_9043",
+   "BC7410HM",
+   "INC_319"
+  ]
+ ],
+ "pagerank_top10": [
+  [
+   "INT_LV_12",
+   "Intersection",
+   3.179
+  ],
+  [
+   "INT_LV_21",
+   "Intersection",
+   2.6681
+  ],
+  [
+   "INT_LV_07",
+   "Intersection",
+   1.8167
+  ],
+  [
+   "INT_LV_25",
+   "Intersection",
+   1.6273
+  ],
+  [
+   "SEC_ST_03",
+   "RoadSegment",
+   1.576
+  ],
+  [
+   "SEC_ST_07",
+   "RoadSegment",
+   1.3804
+  ],
+  [
+   "INT_LV_28",
+   "Intersection",
+   1.2576
+  ],
+  [
+   "SEC_ST_11",
+   "RoadSegment",
+   1.2495
+  ],
+  [
+   "INT_LV_38",
+   "Intersection",
+   1.1624
+  ],
+  [
+   "INT_LV_34",
+   "Intersection",
+   1.1619
+  ]
+ ],
+ "louvain": [
+  {
+   "size": 32,
+   "kinds": {
+    "RoadSegment": 9,
+    "Route": 4,
+    "Intersection": 4,
+    "Driver": 3
+   },
+   "sample": [
+    "AMB_03",
+    "AMB_08",
+    "BC4037KA",
+    "BC4518KA",
+    "BC4555IT",
+    "CONG_887"
+   ]
+  },
+  {
+   "size": 29,
+   "kinds": {
+    "Driver": 5,
+    "SensorDevice": 4,
+    "Intersection": 3,
+    "TrafficLight": 3
+   },
+   "sample": [
+    "BC4333IT",
+    "BC4481IT",
+    "BC4592KA",
+    "BC4703HP",
+    "CAM_106",
+    "CAM_110"
+   ]
+  },
+  {
+   "size": 27,
+   "kinds": {
+    "RoadSegment": 5,
+    "Intersection": 4,
+    "Control": 3,
+    "TrafficLight": 2
+   },
+   "sample": [
+    "AMB_05",
+    "ANALYSIS_4",
+    "BC4148IT",
+    "BC4370XO",
+    "CAM_109",
+    "COLLECT_4"
+   ]
+  },
+  {
+   "size": 21,
+   "kinds": {
+    "Intersection": 3,
+    "RoadSegment": 3,
+    "TrafficCongestion": 2,
+    "SensorDevice": 2
+   },
+   "sample": [
+    "AMB_06",
+    "ANALYSIS_8",
+    "BC4296HP",
+    "CAM_114",
+    "CAM_121",
+    "COLLECT_8"
+   ]
+  },
+  {
+   "size": 21,
+   "kinds": {
+    "RoadSegment": 4,
+    "Driver": 3,
+    "Route": 3,
+    "PassengerCar": 2
+   },
+   "sample": [
+    "AMB_04",
+    "BC4111IT",
+    "BC4222HP",
+    "BC4444KA",
+    "BC4666IT",
+    "CAM_118"
+   ]
+  },
+  {
+   "size": 17,
+   "kinds": {
+    "Driver": 2,
+    "Truck": 2,
+    "RoadSegment": 2,
+    "Intersection": 2
+   },
+   "sample": [
+    "AMB_07",
+    "ANALYSIS_7",
+    "BC4185HP",
+    "BC4629KA",
+    "COLLECT_7",
+    "CONG_890"
+   ]
+  },
+  {
+   "size": 17,
+   "kinds": {
+    "Driver": 2,
+    "Truck": 1,
+    "TrafficAccident": 1,
+    "DataCollection": 1
+   },
+   "sample": [
+    "AA5821KP",
+    "ANALYSIS_2",
+    "BC3055IT",
+    "CAM_043",
+    "COLLECT_2",
+    "CONG_882"
+   ]
+  },
+  {
+   "size": 17,
+   "kinds": {
+    "Driver": 4,
+    "PassengerCar": 3,
+    "RadarSensor": 2,
+    "RoadSegment": 1
+   },
+   "sample": [
+    "ANALYSIS_5",
+    "BC4000IT",
+    "BC4074HP",
+    "BC4259KA",
+    "BC4407XO",
+    "CAM_122"
+   ]
+  },
+  {
+   "size": 16,
+   "kinds": {
+    "TrafficCongestion": 3,
+    "RoadSegment": 2,
+    "TrafficLight": 2,
+    "Intersection": 2
+   },
+   "sample": [
+    "ANALYSIS_6",
+    "CAM_125",
+    "COLLECT_6",
+    "CONG_884",
+    "CONG_888",
+    "CONG_889"
+   ]
+  },
+  {
+   "size": 16,
+   "kinds": {
+    "Driver": 2,
+    "TrafficLight": 1,
+    "DataAnalysis": 1,
+    "DataCollection": 1
+   },
+   "sample": [
+    "AMB_02",
+    "ANALYSIS_3",
+    "BC7410HM",
+    "BUS_A05",
+    "COLLECT_3",
+    "CONG_883"
+   ]
+  },
+  {
+   "size": 14,
+   "kinds": {
+    "Route": 1,
+    "Control": 1,
+    "TrafficAccident": 1,
+    "Driver": 1
+   },
+   "sample": [
+    "AMB_01",
+    "ANALYSIS_1",
+    "BC1234AA",
+    "CAM_042",
+    "COLLECT_1",
+    "CONG_881"
+   ]
+  }
+ ],
+ "louvain_modularity": 0.5565
+}

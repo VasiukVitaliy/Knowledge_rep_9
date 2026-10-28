@@ -1,0 +1,14 @@
+uid,subtype,code,name_uk,name_en,severity_level,avg_speed,duration_min,start_time,source,synthetic
+CONG_881,,CONG-881,Затор CONG-881,Congestion CONG-881,8,7.2,35,2026-10-04T17:45:00,ontology:lab7,false
+CONG_882,,CONG-882,Затор CONG-882,Congestion CONG-882,4,21.5,40,2026-10-04T16:25:00,ontology:lab7,false
+CONG_883,,CONG-883,Затор CONG-883,Congestion CONG-883,9,4.8,20,2026-10-04T18:10:00,ontology:lab7,false
+CONG_884,,CONG-884,Затор CONG-884,Congestion CONG-884,2,6.4,25,2026-10-04T09:44:00,synthetic:seed42,true
+CONG_885,,CONG-885,Затор CONG-885,Congestion CONG-885,6,12.0,25,2026-10-04T17:35:00,synthetic:seed42,true
+CONG_886,,CONG-886,Затор CONG-886,Congestion CONG-886,6,29.5,25,2026-10-04T08:12:00,synthetic:seed42,true
+CONG_887,,CONG-887,Затор CONG-887,Congestion CONG-887,9,6.7,10,2026-10-04T06:03:00,synthetic:seed42,true
+CONG_888,,CONG-888,Затор CONG-888,Congestion CONG-888,3,19.0,10,2026-10-04T19:30:00,synthetic:seed42,true
+CONG_889,,CONG-889,Затор CONG-889,Congestion CONG-889,9,11.7,55,2026-10-04T18:26:00,synthetic:seed42,true
+CONG_890,,CONG-890,Затор CONG-890,Congestion CONG-890,4,10.2,50,2026-10-04T18:13:00,synthetic:seed42,true
+CONG_891,,CONG-891,Затор CONG-891,Congestion CONG-891,9,5.9,25,2026-10-04T06:14:00,synthetic:seed42,true
+CONG_892,,CONG-892,Затор CONG-892,Congestion CONG-892,6,19.5,55,2026-10-04T10:52:00,synthetic:seed42,true
+CONG_893,,CONG-893,Затор CONG-893,Congestion CONG-893,8,23.1,55,2026-10-04T14:31:00,synthetic:seed42,true

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "q01",
+    "difficulty": "easy",
+    "question": "Які ДТП зараз активні?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (ta:TrafficAccident)\nWHERE toLower(ta.status) = 'active'\nRETURN ta",
+    "error": ""
+  },
+  {
+    "id": "q02",
+    "difficulty": "easy",
+    "question": "Скільки смуг має сегмент SEC_ST_11?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (rs:RoadSegment {code: 'SEC_ST_11'})\nRETURN rs.lanes_count AS lanes_count",
+    "error": ""
+  },
+  {
+    "id": "q03",
+    "difficulty": "easy",
+    "question": "Які світлофори працюють в адаптивному режимі?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (tl:TrafficLight)\nWHERE toLower(tl.mode) CONTAINS 'adapt'\nRETURN tl",
+    "error": ""
+  },
+  {
+    "id": "q04",
+    "difficulty": "easy",
+    "question": "Яке обмеження швидкості на сегменті SEC_ST_03?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (r:RoadSegment {code: 'SEC_ST_03'})\nRETURN r.speed_limit",
+    "error": ""
+  },
+  {
+    "id": "q05",
+    "difficulty": "easy",
+    "question": "Які перехрестя мають світлофори?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (tl:TrafficLight)-[:REGULATES]->(i:Intersection)\nRETURN DISTINCT i",
+    "error": ""
+  },
+  {
+    "id": "q06",
+    "difficulty": "medium",
+    "question": "Який найвищий рівень серйозності затору?",
+    "syntax": true,
+    "schema": true,
+    "correct": true,
+    "reason": "",
+    "query": "MATCH (tc:TrafficCongestion)\nRETURN max(tc.severity_level) AS max_severity_level",
+    "error": ""
+  },
+  {
+    "id": "q07",
+    "difficulty": "medium",
+    "question": "Скільки датчиків кожного типу встановлено?",
+    "syntax": true,
+    "schema": true,
+    "correct": true,
+    "reason": "",
+    "query": "MATCH (s:SensorDevice)\nUNWIND [label IN labels(s) WHERE label IN ['VideoCamera', 'RadarSensor', 'InductiveLoop']] AS sensor_type\nRETURN sensor_type, count(s) AS count\nORDER BY count DESC",
+    "error": ""
+  },
+  {
+    "id": "q08",
+    "difficulty": "medium",
+    "question": "Які маршрути мають високе завантаження?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (r:Route)\nWHERE toLower(toString(r.load_rating)) IN ['high', 'високий'] OR r.load_rating >= 0.7 OR r.load_rating >= 4\nRETURN r",
+    "error": ""
+  },
+  {
+    "id": "q09",
+    "difficulty": "medium",
+    "question": "Які водії мають категорію B?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (d:Driver)\nWHERE d.license_category CONTAINS 'B'\nRETURN d",
+    "error": ""
+  },
+  {
+    "id": "q10",
+    "difficulty": "medium",
+    "question": "Які маршрути рекомендовано водієві DRV_9041?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (r:Route)-[:RECOMMENDED_TO]->(d:Driver {code: 'DRV_9041'})\nRETURN r",
+    "error": ""
+  },
+  {
+    "id": "q11",
+    "difficulty": "medium",
+    "question": "Яка середня швидкість у заторах із серйозністю понад 5?",
+    "syntax": true,
+    "schema": true,
+    "correct": true,
+    "reason": "",
+    "query": "MATCH (tc:TrafficCongestion)\nWHERE tc.severity_level > 5\nRETURN avg(tc.avg_speed) AS average_speed",
+    "error": ""
+  },
+  {
+    "id": "q12",
+    "difficulty": "hard",
+    "question": "Які маршрути зачіпає ДТП INC_317 через спричинений нею затор?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (ta:TrafficAccident {code: 'INC_317'})-[:CAUSES]->(tc:TrafficCongestion)-[:AFFECTS_ROUTE]->(r:Route)\nRETURN r",
+    "error": ""
+  },
+  {
+    "id": "q13",
+    "difficulty": "hard",
+    "question": "Які ДТП обслуговує більше однієї екстреної машини?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (v:EmergencyCar)-[:RESPONDS_TO]->(a:TrafficAccident)\nWITH a, count(DISTINCT v) AS emergency_cars_count\nWHERE emergency_cars_count > 1\nRETURN a, emergency_cars_count",
+    "error": ""
+  },
+  {
+    "id": "q14",
+    "difficulty": "hard",
+    "question": "Які водії керують автомобілями, що беруть участь в активних ДТП?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (d:Driver)-[:DRIVES]->(v:Vehicle)-[:INVOLVED_IN]->(ta:TrafficAccident)\nWHERE toLower(ta.status) = 'active'\nRETURN DISTINCT d, v, ta",
+    "error": ""
+  },
+  {
+    "id": "q15",
+    "difficulty": "hard",
+    "question": "Які перехрестя з'єднані більш ніж із трьома сегментами доріг?",
+    "syntax": true,
+    "schema": true,
+    "correct": false,
+    "reason": "wrong result",
+    "query": "MATCH (rs:RoadSegment)-[:CONNECTS_TO]->(i:Intersection)\nWITH i, count(rs) AS segments_count\nWHERE segments_count > 3\nRETURN i, segments_count",
+    "error": ""
+  }
+]

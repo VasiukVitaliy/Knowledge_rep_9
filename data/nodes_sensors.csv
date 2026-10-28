@@ -1,0 +1,25 @@
+uid,subtype,code,name_uk,name_en,install_date,latitude,longitude,source,synthetic
+CAM_042,VideoCamera,CAM-042,Камера CAM-042,Camera CAM-042,2024-05-12,49.8351,24.0152,ontology:lab7,false
+LOOP_105,InductiveLoop,LOOP-105,Петля LOOP-105,Inductive loop LOOP-105,2023-11-20,49.8395,24.023,ontology:lab7,false
+RAD_017,RadarSensor,RAD-017,Радар RAD-017,Radar RAD-017,2025-08-02,49.841,24.024,ontology:lab7,false
+CAM_043,VideoCamera,CAM-043,Камера CAM-043,Camera CAM-043,2025-03-18,49.8372,24.0204,ontology:lab7,false
+CAM_106,VideoCamera,CAM-106,Датчик CAM-106,Sensor CAM-106,2024-02-01,49.8321,24.0699,synthetic:seed42,true
+RAD_107,RadarSensor,RAD-107,Датчик RAD-107,Sensor RAD-107,2023-09-07,49.8354,23.9919,synthetic:seed42,true
+LOOP_108,InductiveLoop,LOOP-108,Датчик LOOP-108,Sensor LOOP-108,2023-04-12,49.8199,24.0194,synthetic:seed42,true
+CAM_109,VideoCamera,CAM-109,Датчик CAM-109,Sensor CAM-109,2025-05-20,49.8689,24.0526,synthetic:seed42,true
+CAM_110,VideoCamera,CAM-110,Датчик CAM-110,Sensor CAM-110,2023-11-27,49.8388,24.0639,synthetic:seed42,true
+RAD_111,RadarSensor,RAD-111,Датчик RAD-111,Sensor RAD-111,2023-05-04,49.8623,24.0468,synthetic:seed42,true
+LOOP_112,InductiveLoop,LOOP-112,Датчик LOOP-112,Sensor LOOP-112,2024-05-20,49.8147,24.0109,synthetic:seed42,true
+CAM_113,VideoCamera,CAM-113,Датчик CAM-113,Sensor CAM-113,2025-05-17,49.8342,24.0615,synthetic:seed42,true
+CAM_114,VideoCamera,CAM-114,Датчик CAM-114,Sensor CAM-114,2023-11-14,49.8581,23.984,synthetic:seed42,true
+RAD_115,RadarSensor,RAD-115,Датчик RAD-115,Sensor RAD-115,2023-11-09,49.8113,24.0198,synthetic:seed42,true
+LOOP_116,InductiveLoop,LOOP-116,Датчик LOOP-116,Sensor LOOP-116,2024-09-01,49.8078,24.0651,synthetic:seed42,true
+CAM_117,VideoCamera,CAM-117,Датчик CAM-117,Sensor CAM-117,2023-09-02,49.8584,24.0324,synthetic:seed42,true
+CAM_118,VideoCamera,CAM-118,Датчик CAM-118,Sensor CAM-118,2024-03-02,49.8216,24.0609,synthetic:seed42,true
+RAD_119,RadarSensor,RAD-119,Датчик RAD-119,Sensor RAD-119,2023-06-07,49.8477,24.04,synthetic:seed42,true
+LOOP_120,InductiveLoop,LOOP-120,Датчик LOOP-120,Sensor LOOP-120,2025-07-20,49.8525,24.0633,synthetic:seed42,true
+CAM_121,VideoCamera,CAM-121,Датчик CAM-121,Sensor CAM-121,2023-03-14,49.8017,24.0463,synthetic:seed42,true
+CAM_122,VideoCamera,CAM-122,Датчик CAM-122,Sensor CAM-122,2024-11-24,49.8568,24.004,synthetic:seed42,true
+RAD_123,RadarSensor,RAD-123,Датчик RAD-123,Sensor RAD-123,2025-02-13,49.8611,24.0573,synthetic:seed42,true
+LOOP_124,InductiveLoop,LOOP-124,Датчик LOOP-124,Sensor LOOP-124,2023-08-12,49.8214,24.0516,synthetic:seed42,true
+CAM_125,VideoCamera,CAM-125,Датчик CAM-125,Sensor CAM-125,2023-01-22,49.8135,24.0095,synthetic:seed42,true

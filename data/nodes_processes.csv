@@ -1,0 +1,33 @@
+uid,subtype,code,name_uk,name_en,source,synthetic
+ANALYSIS_2,DataAnalysis,,Аналіз даних №2,Data analysis #2,ontology:lab7,false
+COLLECT_3,DataCollection,,Збір даних №3,Data collection #3,ontology:lab7,false
+PLANNING_3,Planning,,Планування №3,Planning #3,ontology:lab7,false
+CONTROL_1,Control,,Керування №1,Control #1,ontology:lab7,false
+COLLECT_1,DataCollection,,Збір даних №1,Data collection #1,ontology:lab7,false
+CONTROL_3,Control,,Керування №3,Control #3,ontology:lab7,false
+PLANNING_1,Planning,,Планування №1,Planning #1,ontology:lab7,false
+COLLECT_2,DataCollection,,Збір даних №2,Data collection #2,ontology:lab7,false
+ANALYSIS_3,DataAnalysis,,Аналіз даних №3,Data analysis #3,ontology:lab7,false
+CONTROL_2,Control,,Керування №2,Control #2,ontology:lab7,false
+ANALYSIS_1,DataAnalysis,,Аналіз даних №1,Data analysis #1,ontology:lab7,false
+PLANNING_2,Planning,,Планування №2,Planning #2,ontology:lab7,false
+COLLECT_4,DataCollection,COLLECT-4,Збір даних №4,Data collection #4,synthetic:seed42,true
+ANALYSIS_4,DataAnalysis,ANALYSIS-4,Аналіз даних №4,Data analysis #4,synthetic:seed42,true
+PLANNING_4,Planning,PLANNING-4,Планування №4,Planning #4,synthetic:seed42,true
+CONTROL_4,Control,CONTROL-4,Керування №4,Control #4,synthetic:seed42,true
+COLLECT_5,DataCollection,COLLECT-5,Збір даних №5,Data collection #5,synthetic:seed42,true
+ANALYSIS_5,DataAnalysis,ANALYSIS-5,Аналіз даних №5,Data analysis #5,synthetic:seed42,true
+PLANNING_5,Planning,PLANNING-5,Планування №5,Planning #5,synthetic:seed42,true
+CONTROL_5,Control,CONTROL-5,Керування №5,Control #5,synthetic:seed42,true
+COLLECT_6,DataCollection,COLLECT-6,Збір даних №6,Data collection #6,synthetic:seed42,true
+ANALYSIS_6,DataAnalysis,ANALYSIS-6,Аналіз даних №6,Data analysis #6,synthetic:seed42,true
+PLANNING_6,Planning,PLANNING-6,Планування №6,Planning #6,synthetic:seed42,true
+CONTROL_6,Control,CONTROL-6,Керування №6,Control #6,synthetic:seed42,true
+COLLECT_7,DataCollection,COLLECT-7,Збір даних №7,Data collection #7,synthetic:seed42,true
+ANALYSIS_7,DataAnalysis,ANALYSIS-7,Аналіз даних №7,Data analysis #7,synthetic:seed42,true
+PLANNING_7,Planning,PLANNING-7,Планування №7,Planning #7,synthetic:seed42,true
+CONTROL_7,Control,CONTROL-7,Керування №7,Control #7,synthetic:seed42,true
+COLLECT_8,DataCollection,COLLECT-8,Збір даних №8,Data collection #8,synthetic:seed42,true
+ANALYSIS_8,DataAnalysis,ANALYSIS-8,Аналіз даних №8,Data analysis #8,synthetic:seed42,true
+PLANNING_8,Planning,PLANNING-8,Планування №8,Planning #8,synthetic:seed42,true
+CONTROL_8,Control,CONTROL-8,Керування №8,Control #8,synthetic:seed42,true

@@ -1,0 +1,16 @@
+uid,subtype,code,name_uk,name_en,est_travel_time_min,load_rating,total_length_km,source,synthetic
+R_OPT_5,,R-OPT-5,Маршрут R-OPT-5,Route R-OPT-5,26,high,5.1,ontology:lab7,false
+R_ALT_1,,R-ALT-1,Маршрут R-ALT-1,Route R-ALT-1,15,low,3.8,ontology:lab7,false
+R_OPT_3,,R-OPT-3,Маршрут R-OPT-3,Route R-OPT-3,18,moderate,4.2,ontology:lab7,false
+R_OPT_6,,R-OPT-6,Маршрут R-OPT-6,Route R-OPT-6,33,high,7.3,synthetic:seed42,true
+R_OPT_7,,R-OPT-7,Маршрут R-OPT-7,Route R-OPT-7,18,moderate,5.1,synthetic:seed42,true
+R_OPT_8,,R-OPT-8,Маршрут R-OPT-8,Route R-OPT-8,20,moderate,5.9,synthetic:seed42,true
+R_OPT_9,,R-OPT-9,Маршрут R-OPT-9,Route R-OPT-9,17,high,7.8,synthetic:seed42,true
+R_OPT_10,,R-OPT-10,Маршрут R-OPT-10,Route R-OPT-10,36,moderate,8.9,synthetic:seed42,true
+R_OPT_11,,R-OPT-11,Маршрут R-OPT-11,Route R-OPT-11,22,high,5.6,synthetic:seed42,true
+R_OPT_12,,R-OPT-12,Маршрут R-OPT-12,Route R-OPT-12,31,high,3.9,synthetic:seed42,true
+R_OPT_13,,R-OPT-13,Маршрут R-OPT-13,Route R-OPT-13,41,low,5.1,synthetic:seed42,true
+R_OPT_14,,R-OPT-14,Маршрут R-OPT-14,Route R-OPT-14,39,moderate,8.1,synthetic:seed42,true
+R_OPT_15,,R-OPT-15,Маршрут R-OPT-15,Route R-OPT-15,12,moderate,7.2,synthetic:seed42,true
+R_OPT_16,,R-OPT-16,Маршрут R-OPT-16,Route R-OPT-16,41,low,2.9,synthetic:seed42,true
+R_OPT_17,,R-OPT-17,Маршрут R-OPT-17,Route R-OPT-17,39,low,7.1,synthetic:seed42,true

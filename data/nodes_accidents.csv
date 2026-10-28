@@ -1,0 +1,14 @@
+uid,subtype,code,name_uk,name_en,incident_type,status,blocked_lanes,start_time,duration_min,source,synthetic
+INC_319,,INC-319,ДТП INC-319,Accident INC-319,collision,active,2,2026-10-04T18:05:00,,ontology:lab7,false
+INC_317,,INC-317,ДТП INC-317,Accident INC-317,collision,active,1,2026-10-04T17:40:00,,ontology:lab7,false
+INC_318,,INC-318,Інцидент INC-318,Incident INC-318,breakdown,resolved,1,2026-10-04T16:20:00,25,ontology:lab7,false
+INC_320,,INC-320,ДТП INC-320,Accident INC-320,breakdown,resolved,1,2026-10-04T09:44:00,75,synthetic:seed42,true
+INC_321,,INC-321,ДТП INC-321,Accident INC-321,breakdown,resolved,2,2026-10-04T17:35:00,50,synthetic:seed42,true
+INC_322,,INC-322,ДТП INC-322,Accident INC-322,collision,resolved,1,2026-10-04T08:12:00,70,synthetic:seed42,true
+INC_323,,INC-323,ДТП INC-323,Accident INC-323,breakdown,active,2,2026-10-04T06:03:00,80,synthetic:seed42,true
+INC_324,,INC-324,ДТП INC-324,Accident INC-324,collision,active,1,2026-10-04T19:30:00,50,synthetic:seed42,true
+INC_325,,INC-325,ДТП INC-325,Accident INC-325,collision,resolved,1,2026-10-04T18:26:00,85,synthetic:seed42,true
+INC_326,,INC-326,ДТП INC-326,Accident INC-326,collision,resolved,2,2026-10-04T18:13:00,20,synthetic:seed42,true
+INC_327,,INC-327,ДТП INC-327,Accident INC-327,breakdown,resolved,2,2026-10-04T06:14:00,80,synthetic:seed42,true
+INC_328,,INC-328,ДТП INC-328,Accident INC-328,collision,active,1,2026-10-04T10:52:00,25,synthetic:seed42,true
+INC_329,,INC-329,ДТП INC-329,Accident INC-329,breakdown,active,2,2026-10-04T14:31:00,15,synthetic:seed42,true

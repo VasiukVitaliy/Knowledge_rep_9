@@ -1,0 +1,15 @@
+{"id": "q01", "question": "Які ДТП зараз активні?", "difficulty": "easy", "gold_cypher": "MATCH (a:TrafficAccident {status:'active'}) RETURN a.uid"}
+{"id": "q02", "question": "Скільки смуг має сегмент SEC_ST_11?", "difficulty": "easy", "gold_cypher": "MATCH (s:RoadSegment {uid:'SEC_ST_11'}) RETURN s.lanes_count"}
+{"id": "q03", "question": "Які світлофори працюють в адаптивному режимі?", "difficulty": "easy", "gold_cypher": "MATCH (t:TrafficLight {mode:'adaptive'}) RETURN t.uid"}
+{"id": "q04", "question": "Яке обмеження швидкості на сегменті SEC_ST_03?", "difficulty": "easy", "gold_cypher": "MATCH (s:RoadSegment {uid:'SEC_ST_03'}) RETURN s.speed_limit"}
+{"id": "q05", "question": "Які перехрестя мають світлофори?", "difficulty": "easy", "gold_cypher": "MATCH (i:Intersection {has_lights:true}) RETURN i.uid"}
+{"id": "q06", "question": "Який найвищий рівень серйозності затору?", "difficulty": "medium", "gold_cypher": "MATCH (c:TrafficCongestion) RETURN max(c.severity_level)"}
+{"id": "q07", "question": "Скільки датчиків кожного типу встановлено?", "difficulty": "medium", "gold_cypher": "MATCH (s:SensorDevice) WITH s, [l IN labels(s) WHERE l <> 'SensorDevice'][0] AS t RETURN t, count(*)"}
+{"id": "q08", "question": "Які маршрути мають високе завантаження?", "difficulty": "medium", "gold_cypher": "MATCH (r:Route {load_rating:'high'}) RETURN r.uid"}
+{"id": "q09", "question": "Які водії мають категорію B?", "difficulty": "medium", "gold_cypher": "MATCH (d:Driver {license_category:'B'}) RETURN d.uid"}
+{"id": "q10", "question": "Які маршрути рекомендовано водієві DRV_9041?", "difficulty": "medium", "gold_cypher": "MATCH (r:Route)-[:RECOMMENDED_TO]->(:Driver {uid:'DRV_9041'}) RETURN r.uid"}
+{"id": "q11", "question": "Яка середня швидкість у заторах із серйозністю понад 5?", "difficulty": "medium", "gold_cypher": "MATCH (c:TrafficCongestion) WHERE c.severity_level > 5 RETURN avg(c.avg_speed)"}
+{"id": "q12", "question": "Які маршрути зачіпає ДТП INC_317 через спричинений нею затор?", "difficulty": "hard", "gold_cypher": "MATCH (:TrafficAccident {uid:'INC_317'})-[:CAUSES]->(:TrafficCongestion)-[:AFFECTS_ROUTE]->(r:Route) RETURN DISTINCT r.uid"}
+{"id": "q13", "question": "Які ДТП обслуговує більше однієї екстреної машини?", "difficulty": "hard", "gold_cypher": "MATCH (e:EmergencyCar)-[:RESPONDS_TO]->(a:TrafficAccident) WITH a, count(e) AS n WHERE n > 1 RETURN a.uid"}
+{"id": "q14", "question": "Які водії керують автомобілями, що беруть участь в активних ДТП?", "difficulty": "hard", "gold_cypher": "MATCH (d:Driver)-[:DRIVES]->(:Vehicle)-[:INVOLVED_IN]->(:TrafficAccident {status:'active'}) RETURN DISTINCT d.uid"}
+{"id": "q15", "question": "Які перехрестя з'єднані більш ніж із трьома сегментами доріг?", "difficulty": "hard", "gold_cypher": "MATCH (i:Intersection)<-[:CONNECTS_TO]-(s:RoadSegment) WITH i, count(s) AS n WHERE n > 3 RETURN i.uid"}

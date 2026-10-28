@@ -1,0 +1,5212 @@
+[
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b10",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CAM_042",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#VideoCamera",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#detects": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC1234AA"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#install_date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2024-05-12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8351
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0152
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_881"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#sensor_id": [
+      {
+        "@value": "CAM-042"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Video camera at intersection INT-LV-12; registered accident INC-317 and congestion CONG-881."
+      },
+      {
+        "@language": "uk",
+        "@value": "Відеокамера на перехресті INT-LV-12; зареєструвала ДТП INC-317 і затор CONG-881."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Camera CAM-042"
+      },
+      {
+        "@language": "uk",
+        "@value": "Камера CAM-042"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#intersection_id": [
+      {
+        "@value": "INT-LV-12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#is_traffic_lights": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.835
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.015
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt + cobblestone"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "moderate"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Intersection with traffic light TL-12-A and camera CAM-042; asphalt and cobblestone surface."
+      },
+      {
+        "@language": "uk",
+        "@value": "Перехрестя зі світлофором TL-12-A і камерою CAM-042; покриття — асфальт і бруківка."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Intersection INT-LV-12"
+      },
+      {
+        "@language": "uk",
+        "@value": "Перехрестя INT-LV-12"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#avg_speed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#dynamic_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#hasBasis",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isBasisFor"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is mounted on"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#knowledge_attribute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#temporal_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#dynamic_attribute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#knowledge_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRegisteredBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_07_A",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#current_phase": [
+      {
+        "@value": "red"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#cycle_duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "80"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#mode": [
+      {
+        "@value": "fixed-time"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#regulates": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#traffic_light_id": [
+      {
+        "@value": "TL-07-A"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Fixed-time traffic light (80 s cycle) at intersection INT-LV-07."
+      },
+      {
+        "@language": "uk",
+        "@value": "Світлофор із фіксованим циклом 80 с на перехресті INT-LV-07."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic light TL-07-A"
+      },
+      {
+        "@language": "uk",
+        "@value": "Світлофор TL-07-A"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#respondsTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "responds to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#regulates",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "regulates"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "drives"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isDrivenBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_2",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#classifies": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_882"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_318"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isBasisFor": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_3"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Classifies incident INC-318 and congestion CONG-882; basis for PLANNING_2 and CONTROL_3."
+      },
+      {
+        "@language": "uk",
+        "@value": "Класифікує інцидент INC-318 і затор CONG-882; підстава для PLANNING_2 і CONTROL_3."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data analysis #2"
+      },
+      {
+        "@language": "uk",
+        "@value": "Аналіз даних №2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#intersection_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Knowledge processing"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#VideoCamera",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Video camera"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Analysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#dynamic_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#LOOP_105",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#InductiveLoop",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#detects": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC3055IT"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#install_date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2023-11-20"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8395
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.023
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_882"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_318"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#sensor_id": [
+      {
+        "@value": "LOOP-105"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Inductive loop on Stryiska St.; detected the truck and registered incident INC-318 and congestion CONG-882."
+      },
+      {
+        "@language": "uk",
+        "@value": "Індуктивна петля на вул. Стрийській; зафіксувала вантажівку та зареєструвала інцидент INC-318 і затор CONG-882."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Inductive loop LOOP-105"
+      },
+      {
+        "@language": "uk",
+        "@value": "Петля LOOP-105"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isBasisFor",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is basis for"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#spatial_attribute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#knowledge_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic congestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Traffic_congestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b1"
+      },
+      {
+        "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b2"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b1",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b2",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b3"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b3",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ],
+    "http://www.w3.org/2002/07/owl#onDatatype": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#withRestrictions": [
+      {
+        "@list": [
+          {
+            "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b4"
+          },
+          {
+            "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b4",
+    "http://www.w3.org/2001/XMLSchema#minInclusive": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b5",
+    "http://www.w3.org/2001/XMLSchema#maxInclusive": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "10"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_3",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#suppliesDataTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Data collection from RAD-017 feeding ANALYSIS_3."
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних із RAD-017 для аналізу ANALYSIS_3."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data collection #3"
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних №3"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b15",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Intersection_(road)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#temporal_attribute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#knowledge_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#adjusts",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "adjusts"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isAdjustedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic light"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Traffic_light"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Ontology"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Ontology of road traffic monitoring (Lviv). Extended in SR6 with individuals, bilingual annotations (uk/en) and constraints. All data are illustrative; coordinates are approximate."
+      },
+      {
+        "@language": "uk",
+        "@value": "Онтологія моніторингу дорожнього руху (Львів). У СР6 доповнена індивідами, двомовними анотаціями (uk/en) та обмеженнями. Усі дані ілюстративні, координати наближені."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Road traffic monitoring"
+      },
+      {
+        "@language": "uk",
+        "@value": "Моніторинг дорожнього руху"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Lviv"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PublicTransport",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Public transport"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Public_transport"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#classifies",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "classifies"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isClassifiedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#street_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_881",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#affectsRoute": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_3"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#avg_speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "7.2"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#congestion_id": [
+      {
+        "@value": "CONG-881"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "35"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "8"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T17:45:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Congestion on Horodotska St. (severity 8/10, average speed 7.2 km/h) caused by accident INC-317."
+      },
+      {
+        "@language": "uk",
+        "@value": "Затор на вул. Городоцькій (серйозність 8/10, середня швидкість 7,2 км/год), спричинений ДТП INC-317."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Congestion CONG-881"
+      },
+      {
+        "@language": "uk",
+        "@value": "Затор CONG-881"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#est_travel_time",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9042",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id": [
+      {
+        "@value": "DRV-9042"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AA5821KP"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category": [
+      {
+        "@value": "B"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference": [
+      {
+        "@value": "shortest distance"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history": [
+      {
+        "@value": "8 trips/week"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Category B driver who prefers the shortest route; receives recommendation R-ALT-1."
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій категорії B, що віддає перевагу найкоротшому маршруту; отримує рекомендацію R-ALT-1."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver DRV-9042"
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій DRV-9042"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isDetectedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#duration",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#temporal_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_condition"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#lanes_count",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_21_A",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#current_phase": [
+      {
+        "@value": "yellow"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#cycle_duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "100"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#mode": [
+      {
+        "@value": "adaptive"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#regulates": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#traffic_light_id": [
+      {
+        "@value": "TL-21-A"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Adaptive traffic light (100 s cycle) at INT-LV-21 adjusted by CONTROL_2."
+      },
+      {
+        "@language": "uk",
+        "@value": "Адаптивний світлофор (цикл 100 с) на перехресті INT-LV-21, яким керує CONTROL_2."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic light TL-21-A"
+      },
+      {
+        "@language": "uk",
+        "@value": "Світлофор TL-21-A"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b25",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDifferent"
+    ],
+    "http://www.w3.org/2002/07/owl#distinctMembers": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AA5821KP"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_01"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_02"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_1"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_2"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_3"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC1234AA"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC3055IT"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC7410HM"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BUS_A05"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CAM_042"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CAM_043"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_1"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_2"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_3"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_881"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_882"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_883"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_1"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_2"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_3"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9041"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9042"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9043"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9044"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9045"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#FIRE_01"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_318"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#LOOP_105"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_1"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_2"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_3"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RAD_017"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_ALT_1"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_3"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_5"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_07_A"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_12_A"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_21_A"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic event"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BUS_A05",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PublicTransport",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "East"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8412
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0245
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "4.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:15:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "BUS-A05"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Public transport bus on Chornovola Ave. within the zone of congestion CONG-883."
+      },
+      {
+        "@language": "uk",
+        "@value": "Автобус громадського транспорту, що рухається проспектом Чорновола в зоні затору CONG-883."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Bus A05"
+      },
+      {
+        "@language": "uk",
+        "@value": "Автобус A05"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "registers"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AA5821KP",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PassengerCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "South"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8379
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0268
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "12.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:15:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "AA5821KP"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Passenger car heading south on Horodotska St. and crossing INT-LV-07."
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковий автомобіль, що їде на південь вул. Городоцькою й проїжджає перехрестя INT-LV-07."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Passenger car AA5821KP"
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковик AA5821KP"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#traffic_light_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#cycle_duration",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#road_name",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#is_traffic_lights",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#boolean"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_condition"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#blocked_lanes": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "2"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#causes": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_883"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_id": [
+      {
+        "@value": "INC-319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_type": [
+      {
+        "@value": "collision"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:05:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#status": [
+      {
+        "@value": "active"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Active collision on Chornovola Ave. blocking two lanes; caused congestion CONG-883."
+      },
+      {
+        "@language": "uk",
+        "@value": "Активне зіткнення на проспекті Чорновола з блокуванням двох смуг; спричинило затор CONG-883."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Accident INC-319"
+      },
+      {
+        "@language": "uk",
+        "@value": "ДТП INC-319"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#intersection_id": [
+      {
+        "@value": "INT-LV-21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#is_traffic_lights": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8431
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0267
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "medium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Signal-controlled intersection of Stryiska St. and Chornovola Ave.; traffic light TL-21-A."
+      },
+      {
+        "@language": "uk",
+        "@value": "Сигналізоване перехрестя вул. Стрийської та проспекту Чорновола; світлофор TL-21-A."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Intersection INT-LV-21"
+      },
+      {
+        "@language": "uk",
+        "@value": "Перехрестя INT-LV-21"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Sensor / camera"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RAD_017",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RadarSensor",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#detects": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_02"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC7410HM"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BUS_A05"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#install_date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-08-02"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.841
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.024
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_883"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#sensor_id": [
+      {
+        "@value": "RAD-017"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Radar sensor on Chornovola Ave.; measures vehicle speed and registers accident INC-319 and congestion CONG-883."
+      },
+      {
+        "@language": "uk",
+        "@value": "Радарний датчик на проспекті Чорновола; фіксує швидкість транспорту та реєструє ДТП INC-319 і затор CONG-883."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Radar RAD-017"
+      },
+      {
+        "@language": "uk",
+        "@value": "Радар RAD-017"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadUser",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Road user"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_3",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#producesRoute": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Builds candidate route R-OPT-5, which is not recommended to drivers because of its high load."
+      },
+      {
+        "@language": "uk",
+        "@value": "Будує кандидатний маршрут R-OPT-5, який не рекомендується водіям через високе завантаження."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Planning #3"
+      },
+      {
+        "@language": "uk",
+        "@value": "Планування №3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#length",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_5",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#est_travel_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "26"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#load_rating": [
+      {
+        "@value": "high"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#passesThrough": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_id": [
+      {
+        "@value": "R-OPT-5"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#total_length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "5.1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "5.1 km route along Chornovola Ave. with a high load (about 26 min) because of congestion CONG-883."
+      },
+      {
+        "@language": "uk",
+        "@value": "Маршрут 5,1 км проспектом Чорновола з високим завантаженням (~26 хв) через затор CONG-883."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Route R-OPT-5"
+      },
+      {
+        "@language": "uk",
+        "@value": "Маршрут R-OPT-5"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involvedIn",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is involved in"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involves"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b77",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PassengerCar"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PublicTransport"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Truck"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#hostsEvent",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructure",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Road infrastructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "moves along"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isNotifiedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#notifies"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRecommendedTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "is recommended to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RadarSensor",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Radar sensor"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Radar"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#InductiveLoop",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Inductive loop"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involves",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PassengerCar",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Passenger car"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Car"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isCrossedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Planning"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRespondedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#respondsTo"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_1",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#adjusts": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_12_A"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#notifies": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Adjusts traffic light TL-12-A and notifies ambulance AMB-01 based on the analysis."
+      },
+      {
+        "@language": "uk",
+        "@value": "Коригує світлофор TL-12-A і сповіщає швидку AMB-01 за результатами аналізу."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Control #1"
+      },
+      {
+        "@language": "uk",
+        "@value": "Керування №1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic accident / incident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Traffic_collision"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#total_length",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#float"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#connectsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#lanes_count": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "2"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "650"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#road_name": [
+      {
+        "@value": "Horodotska St."
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed_limit": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "50"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#street_id": [
+      {
+        "@value": "SEC-ST-07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "medium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Two-lane 650 m segment with a 50 km/h limit; site of accident INC-317 and congestion CONG-881."
+      },
+      {
+        "@language": "uk",
+        "@value": "Двосмуговий сегмент 650 м з обмеженням 50 км/год; місце ДТП INC-317 і затору CONG-881."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Horodotska St. (SEC-ST-07)"
+      },
+      {
+        "@language": "uk",
+        "@value": "Вулиця Городоцька (SEC-ST-07)"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isPartOfRoute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#passesThrough"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_882",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#avg_speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "21.5"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#congestion_id": [
+      {
+        "@value": "CONG-882"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "40"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "4"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T16:25:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Finished moderate congestion on Stryiska St. (severity 4/10) caused by breakdown INC-318."
+      },
+      {
+        "@language": "uk",
+        "@value": "Завершений помірний затор на вул. Стрийській (серйозність 4/10), спричинений поломкою INC-318."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Congestion CONG-882"
+      },
+      {
+        "@language": "uk",
+        "@value": "Затор CONG-882"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Route"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isDrivenBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9041",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id": [
+      {
+        "@value": "DRV-9041"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC1234AA"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category": [
+      {
+        "@value": "B"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference": [
+      {
+        "@value": "fastest time"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history": [
+      {
+        "@value": "12 trips/week"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Category B driver who prefers the fastest route; 12 trips per week."
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій категорії B, що віддає перевагу найшвидшому маршруту; 12 поїздок на тиждень."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver DRV-9041"
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій DRV-9041"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Emergency vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Emergency_vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_02",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "East"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8408
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0236
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#respondsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "58.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:12:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "AMB-02"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Ambulance dispatched to accident INC-319."
+      },
+      {
+        "@language": "uk",
+        "@value": "Автомобіль швидкої допомоги, що виїхав на ДТП INC-319."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Ambulance AMB-02"
+      },
+      {
+        "@language": "uk",
+        "@value": "Швидка AMB-02"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#congestion_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Road segment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isProducedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#producesRoute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#causes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#IrreflexiveProperty",
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "causes"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isCausedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#status",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#intersection_id": [
+      {
+        "@value": "INT-LV-07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#is_traffic_lights": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8372
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0204
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "low"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Signal-controlled intersection of Horodotska St. and Stryiska St.; traffic light TL-07-A, camera CAM-043."
+      },
+      {
+        "@language": "uk",
+        "@value": "Сигналізоване перехрестя вул. Городоцької та вул. Стрийської; світлофор TL-07-A, камера CAM-043."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Intersection INT-LV-07"
+      },
+      {
+        "@language": "uk",
+        "@value": "Перехрестя INT-LV-07"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_1",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#suppliesDataTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Sensor data collection that feeds ANALYSIS_1."
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних із датчиків, що постачає дані для аналізу ANALYSIS_1."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data collection #1"
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних №1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CAM_043",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#VideoCamera",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#detects": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AA5821KP"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#FIRE_01"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#install_date": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2025-03-18"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8372
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0204
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#registers": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#sensor_id": [
+      {
+        "@value": "CAM-043"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Video camera at INT-LV-07; detects a passenger car and the fire engine and registers accident INC-317."
+      },
+      {
+        "@language": "uk",
+        "@value": "Відеокамера на перехресті INT-LV-07; фіксує проїзд легковика та пожежної й реєструє ДТП INC-317."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Camera CAM-043"
+      },
+      {
+        "@language": "uk",
+        "@value": "Камера CAM-043"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#sensor_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_883",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#affectsRoute": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_5"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#avg_speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "4.8"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#congestion_id": [
+      {
+        "@value": "CONG-883"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "20"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#severity_level": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "9"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:10:00"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Severe congestion on Chornovola Ave. (severity 9/10) caused by accident INC-319; affects route R-OPT-5."
+      },
+      {
+        "@language": "uk",
+        "@value": "Сильний затор на проспекті Чорновола (серйозність 9/10), спричинений ДТП INC-319; впливає на маршрут R-OPT-5."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Congestion CONG-883"
+      },
+      {
+        "@language": "uk",
+        "@value": "Затор CONG-883"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#hasSensor",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isMountedOn"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b19",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructure"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadUser"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#connectsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#lanes_count": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "4"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "1200"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#road_name": [
+      {
+        "@value": "Chornovola Ave."
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed_limit": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "60"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#street_id": [
+      {
+        "@value": "SEC-ST-11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "medium"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Four-lane 1200 m segment with a 60 km/h limit; site of accident INC-319 and congestion CONG-883."
+      },
+      {
+        "@language": "uk",
+        "@value": "Чотирисмуговий сегмент 1200 м з обмеженням 60 км/год; місце ДТП INC-319 і затору CONG-883."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Chornovola Ave. (SEC-ST-11)"
+      },
+      {
+        "@language": "uk",
+        "@value": "Проспект Чорновола (SEC-ST-11)"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRegulatedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#regulates"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#receivesDataFrom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#suppliesDataTo"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9043",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id": [
+      {
+        "@value": "DRV-9043"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC7410HM"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category": [
+      {
+        "@value": "B"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference": [
+      {
+        "@value": "avoid cobblestone"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history": [
+      {
+        "@value": "5 trips/week"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Category B driver who avoids cobblestone; drives BC7410HM, which is involved in accident INC-319."
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій категорії B, що уникає бруківки; керує BC7410HM — учасником ДТП INC-319."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver DRV-9043"
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій DRV-9043"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#blocked_lanes",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_12_A",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#current_phase": [
+      {
+        "@value": "green"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#cycle_duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "90"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#mode": [
+      {
+        "@value": "adaptive"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#regulates": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#traffic_light_id": [
+      {
+        "@value": "TL-12-A"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Adaptive traffic light at INT-LV-12 (90 s cycle) adjusted by CONTROL_1."
+      },
+      {
+        "@language": "uk",
+        "@value": "Адаптивний світлофор перехрестя INT-LV-12 (цикл 90 с), яким керує CONTROL_1."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Traffic light TL-12-A"
+      },
+      {
+        "@language": "uk",
+        "@value": "Світлофор TL-12-A"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#spatial_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isConnectedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/2001/XMLSchema#date",
+    "@type": [
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#dateTime"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#temporal_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_condition",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#knowledge_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#hasVehicleOn",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Control"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_01",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#respondsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "AMB-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Ambulance responding to accident INC-317; notified by the control process."
+      },
+      {
+        "@language": "uk",
+        "@value": "Автомобіль швидкої допомоги, що реагує на ДТП INC-317 і отримує сповіщення від процесу керування."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Ambulance AMB-01"
+      },
+      {
+        "@language": "uk",
+        "@value": "Швидка AMB-01"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_3",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#adjusts": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_07_A"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Adjusts traffic light TL-07-A (fixed cycle) based on ANALYSIS_2."
+      },
+      {
+        "@language": "uk",
+        "@value": "Коригує світлофор TL-07-A (фіксований цикл) за результатами ANALYSIS_2."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Control #3"
+      },
+      {
+        "@language": "uk",
+        "@value": "Керування №3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9045",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id": [
+      {
+        "@value": "DRV-9045"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BUS_A05"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category": [
+      {
+        "@value": "D"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference": [
+      {
+        "@value": "fixed timetable"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history": [
+      {
+        "@value": "40 trips/week"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Category D bus driver working to a fixed timetable."
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій автобуса категорії D, що працює за фіксованим розкладом."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver DRV-9045"
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій DRV-9045"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#load_rating",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#dynamic_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#receivesRecommendationFrom",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#recommendsTo"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9044",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#driver_id": [
+      {
+        "@value": "DRV-9044"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC3055IT"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#license_category": [
+      {
+        "@value": "C"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference": [
+      {
+        "@value": "avoid city centre"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#travel_history": [
+      {
+        "@value": "20 trips/week"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Category C truck driver; 20 trips per week; receives recommendation R-ALT-1."
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій вантажівки категорії C; 20 поїздок на тиждень; отримує рекомендацію R-ALT-1."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver DRV-9044"
+      },
+      {
+        "@language": "uk",
+        "@value": "Водій DRV-9044"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed_limit",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#int"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#FIRE_01",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "North"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8374
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0209
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#respondsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "55.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:12:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "FIRE-01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Fire engine responding to accident INC-319 and crossing intersection INT-LV-07."
+      },
+      {
+        "@language": "uk",
+        "@value": "Пожежно-рятувальний автомобіль, що реагує на ДТП INC-319 і проїжджає перехрестя INT-LV-07."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Fire engine FIRE-01"
+      },
+      {
+        "@language": "uk",
+        "@value": "Пожежна FIRE-01"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b8"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadUser"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#disjointWith": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b8",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#drives"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#suppliesDataTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "supplies data to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_preference",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#detects",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "detects"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isDetectedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC3055IT",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Truck",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "West"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involvedIn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_318"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8395
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.023
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "0.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T16:30:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "BC3055IT"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Truck that broke down on Stryiska St. (incident INC-318, resolved)."
+      },
+      {
+        "@language": "uk",
+        "@value": "Вантажівка, що зламалась на вул. Стрийській (інцидент INC-318, усунуто)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Truck BC3055IT"
+      },
+      {
+        "@language": "uk",
+        "@value": "Вантажівка BC3055IT"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#mode",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#notifies",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "notifies"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#EmergencyCar"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#blocked_lanes": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "1"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#causes": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_881"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_id": [
+      {
+        "@value": "INC-317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_type": [
+      {
+        "@value": "collision"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T17:40:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#status": [
+      {
+        "@value": "active"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Active collision on Horodotska St. blocking one lane; caused congestion CONG-881."
+      },
+      {
+        "@language": "uk",
+        "@value": "Активне зіткнення на вул. Городоцькій із блокуванням однієї смуги; спричинило затор CONG-881."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Accident INC-317"
+      },
+      {
+        "@language": "uk",
+        "@value": "ДТП INC-317"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#passesThrough",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "passes through"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#hasRecommendedRoute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRecommendedTo"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_1",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#producesRoute": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_3"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#recommendsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9041"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Builds route R-OPT-3 and recommends it to driver DRV-9041."
+      },
+      {
+        "@language": "uk",
+        "@value": "Будує маршрут R-OPT-3 і рекомендує його водієві DRV-9041."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Planning #1"
+      },
+      {
+        "@language": "uk",
+        "@value": "Планування №1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "crosses"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isCrossedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isAffectedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data collection"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataProcess"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#connectsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#lanes_count": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "3"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "820"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#road_name": [
+      {
+        "@value": "Stryiska St."
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed_limit": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "50"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#street_id": [
+      {
+        "@value": "SEC-ST-03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#surface_type": [
+      {
+        "@value": "asphalt"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#wear_level": [
+      {
+        "@value": "low"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Three-lane 820 m segment between INT-LV-07 and INT-LV-21; equipped with inductive loop LOOP-105."
+      },
+      {
+        "@language": "uk",
+        "@value": "Трисмуговий сегмент 820 м між INT-LV-07 та INT-LV-21; оснащений індуктивною петлею LOOP-105."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Stryiska St. (SEC-ST-03)"
+      },
+      {
+        "@language": "uk",
+        "@value": "Вулиця Стрийська (SEC-ST-03)"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isCausedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#affectsRoute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficCongestion"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "affects route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isAffectedBy"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b73",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AllDisjointClasses"
+    ],
+    "http://www.w3.org/2002/07/owl#members": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#InductiveLoop"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RadarSensor"
+          },
+          {
+            "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#VideoCamera"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC7410HM",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PassengerCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "East"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involvedIn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8402
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.022
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_11"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "5.0"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:15:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "BC7410HM"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Passenger car involved in accident INC-319 on Chornovola Ave."
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковий автомобіль, учасник ДТП INC-319 на проспекті Чорновола."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Passenger car BC7410HM"
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковик BC7410HM"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_318",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#blocked_lanes": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "1"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#causes": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_882"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#duration": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "25"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_id": [
+      {
+        "@value": "INC-318"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_type": [
+      {
+        "@value": "breakdown"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#start_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T16:20:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#status": [
+      {
+        "@value": "resolved"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Truck breakdown on Stryiska St.; one lane blocked for 25 min; resolved; caused congestion CONG-882."
+      },
+      {
+        "@language": "uk",
+        "@value": "Поломка вантажівки на вул. Стрийській; одну смугу заблоковано на 25 хв; усунуто, спричинив затор CONG-882."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Incident INC-318"
+      },
+      {
+        "@language": "uk",
+        "@value": "Інцидент INC-318"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#COLLECT_2",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataCollection",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#suppliesDataTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Data collection from LOOP-105 and CAM-043 feeding ANALYSIS_2."
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних із LOOP-105 і CAM-043 для аналізу ANALYSIS_2."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data collection #2"
+      },
+      {
+        "@language": "uk",
+        "@value": "Збір даних №2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Truck",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Truck"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Truck"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#producesRoute",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "produces route"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#incident_id",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficAccident"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#double"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#spatial_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_ALT_1",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#est_travel_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "15"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRecommendedTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9042"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9044"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#load_rating": [
+      {
+        "@value": "low"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#passesThrough": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_07"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_21"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_03"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_id": [
+      {
+        "@value": "R-ALT-1"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#total_length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "3.8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "3.8 km detour via Stryiska St. with a low load (about 15 min)."
+      },
+      {
+        "@language": "uk",
+        "@value": "Об'їзний маршрут 3,8 км через вул. Стрийську з низьким завантаженням (~15 хв)."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Route R-ALT-1"
+      },
+      {
+        "@language": "uk",
+        "@value": "Маршрут R-ALT-1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#occursOn",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "occurs on"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructureElement",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Road infrastructure element"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadInfrastructure"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_3",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#classifies": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_883"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_319"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isBasisFor": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_2"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Classifies accident INC-319 and congestion CONG-883; basis for PLANNING_3 and CONTROL_2."
+      },
+      {
+        "@language": "uk",
+        "@value": "Класифікує ДТП INC-319 і затор CONG-883; підстава для PLANNING_3 і CONTROL_2."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data analysis #3"
+      },
+      {
+        "@language": "uk",
+        "@value": "Аналіз даних №3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#BC1234AA",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PassengerCar",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#crosses": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INT_LV_12"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#direction": [
+      {
+        "@value": "North"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#involvedIn": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#latitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 49.8397
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#longitude": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 24.0297
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#movesAlong": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#speed": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "48.5"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#timestamp": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2026-10-04T18:15:00+00:00"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#vehicle_id": [
+      {
+        "@value": "BC1234AA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Passenger car heading north on Horodotska St. (48.5 km/h); involved in accident INC-317."
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковий автомобіль, що їде на північ вул. Городоцькою (48,5 км/год); учасник ДТП INC-317."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Passenger car BC1234AA"
+      },
+      {
+        "@language": "uk",
+        "@value": "Легковик BC1234AA"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isClassifiedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficEvent"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isAdjustedBy",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_OPT_3",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Route",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#est_travel_time": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#int",
+        "@value": "18"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isRecommendedTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9041"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#load_rating": [
+      {
+        "@value": "moderate"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#passesThrough": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SEC_ST_07"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#route_id": [
+      {
+        "@value": "R-OPT-3"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#total_length": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#float",
+        "@value": "4.2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "4.2 km route via Horodotska St., about 18 min, moderate load."
+      },
+      {
+        "@language": "uk",
+        "@value": "Маршрут 4,2 км через вул. Городоцьку, орієнтовно 18 хв, помірне завантаження."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Route R-OPT-3"
+      },
+      {
+        "@language": "uk",
+        "@value": "Маршрут R-OPT-3"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_2",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Control",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#adjusts": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TL_21_A"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#notifies": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#AMB_02"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#FIRE_01"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Adjusts traffic light TL-21-A and notifies ambulance AMB-02 and fire engine FIRE-01."
+      },
+      {
+        "@language": "uk",
+        "@value": "Коригує світлофор TL-21-A і сповіщає швидку AMB-02 та пожежну FIRE-01."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Control #2"
+      },
+      {
+        "@language": "uk",
+        "@value": "Керування №2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#current_phase",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#TrafficLight"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#string"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#dynamic_attribute"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#install_date",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#SensorDevice"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.w3.org/2001/XMLSchema#date"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#recommendsTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "recommends to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Driver"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#ANALYSIS_1",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DataAnalysis",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#classifies": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONG_881"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#INC_317"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isBasisFor": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#CONTROL_1"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Classifies accident INC-317 and congestion CONG-881; basis for planning and control."
+      },
+      {
+        "@language": "uk",
+        "@value": "Класифікує ДТП INC-317 і затор CONG-881; є підставою для планування та керування."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Data analysis #1"
+      },
+      {
+        "@language": "uk",
+        "@value": "Аналіз даних №1"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#connectsTo",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadSegment"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "connects to"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Intersection"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isConnectedBy"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#PLANNING_2",
+    "@type": [
+      "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Planning",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#producesRoute": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#R_ALT_1"
+      }
+    ],
+    "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#recommendsTo": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9042"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#DRV_9044"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "Builds detour route R-ALT-1 and recommends it to drivers DRV-9042 and DRV-9044."
+      },
+      {
+        "@language": "uk",
+        "@value": "Будує об'їзний маршрут R-ALT-1 і рекомендує його водіям DRV-9042 та DRV-9044."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Planning #2"
+      },
+      {
+        "@language": "uk",
+        "@value": "Планування №2"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#Vehicle",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Vehicle"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b9"
+      },
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#RoadUser"
+      }
+    ]
+  },
+  {
+    "@id": "_:ncbc14eee04044a67b43ffdfd38ba4570b9",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#maxCardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/vital/ontologies/2026/9/traffic-monitoring#isDrivenBy"
+      }
+    ]
+  }
+]

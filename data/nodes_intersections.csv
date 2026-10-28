@@ -1,0 +1,24 @@
+uid,subtype,code,name_uk,name_en,has_lights,surface_type,wear_level,latitude,longitude,source,synthetic
+INT_LV_12,,INT-LV-12,Перехрестя INT-LV-12,Intersection INT-LV-12,true,asphalt + cobblestone,moderate,49.835,24.015,ontology:lab7,false
+INT_LV_21,,INT-LV-21,Перехрестя INT-LV-21,Intersection INT-LV-21,true,asphalt,medium,49.8431,24.0267,ontology:lab7,false
+INT_LV_07,,INT-LV-07,Перехрестя INT-LV-07,Intersection INT-LV-07,true,asphalt,low,49.8372,24.0204,ontology:lab7,false
+INT_LV_22,,INT-LV-22,Перехрестя INT-LV-22,Intersection INT-LV-22,true,concrete,low,49.8018,24.0048,synthetic:seed42,true
+INT_LV_23,,INT-LV-23,Перехрестя INT-LV-23,Intersection INT-LV-23,true,concrete,moderate,49.8625,23.9878,synthetic:seed42,true
+INT_LV_24,,INT-LV-24,Перехрестя INT-LV-24,Intersection INT-LV-24,false,asphalt,low,49.8163,24.0342,synthetic:seed42,true
+INT_LV_25,,INT-LV-25,Перехрестя INT-LV-25,Intersection INT-LV-25,true,concrete,low,49.8501,24.0431,synthetic:seed42,true
+INT_LV_26,,INT-LV-26,Перехрестя INT-LV-26,Intersection INT-LV-26,true,concrete,medium,49.8567,23.9806,synthetic:seed42,true
+INT_LV_27,,INT-LV-27,Перехрестя INT-LV-27,Intersection INT-LV-27,false,asphalt + cobblestone,low,49.8151,24.0487,synthetic:seed42,true
+INT_LV_28,,INT-LV-28,Перехрестя INT-LV-28,Intersection INT-LV-28,true,asphalt,low,49.8266,24.0123,synthetic:seed42,true
+INT_LV_29,,INT-LV-29,Перехрестя INT-LV-29,Intersection INT-LV-29,true,concrete,medium,49.8375,24.0676,synthetic:seed42,true
+INT_LV_30,,INT-LV-30,Перехрестя INT-LV-30,Intersection INT-LV-30,false,concrete,moderate,49.862,24.0125,synthetic:seed42,true
+INT_LV_31,,INT-LV-31,Перехрестя INT-LV-31,Intersection INT-LV-31,true,asphalt,moderate,49.8049,24.0395,synthetic:seed42,true
+INT_LV_32,,INT-LV-32,Перехрестя INT-LV-32,Intersection INT-LV-32,true,asphalt,medium,49.8195,24.0372,synthetic:seed42,true
+INT_LV_33,,INT-LV-33,Перехрестя INT-LV-33,Intersection INT-LV-33,false,asphalt + cobblestone,low,49.8469,24.0432,synthetic:seed42,true
+INT_LV_34,,INT-LV-34,Перехрестя INT-LV-34,Intersection INT-LV-34,true,concrete,moderate,49.805,24.0371,synthetic:seed42,true
+INT_LV_35,,INT-LV-35,Перехрестя INT-LV-35,Intersection INT-LV-35,true,asphalt + cobblestone,medium,49.8189,24.0633,synthetic:seed42,true
+INT_LV_36,,INT-LV-36,Перехрестя INT-LV-36,Intersection INT-LV-36,false,asphalt,low,49.8575,24.0525,synthetic:seed42,true
+INT_LV_37,,INT-LV-37,Перехрестя INT-LV-37,Intersection INT-LV-37,true,asphalt + cobblestone,medium,49.8046,24.0622,synthetic:seed42,true
+INT_LV_38,,INT-LV-38,Перехрестя INT-LV-38,Intersection INT-LV-38,true,concrete,medium,49.8277,24.0623,synthetic:seed42,true
+INT_LV_39,,INT-LV-39,Перехрестя INT-LV-39,Intersection INT-LV-39,false,asphalt,low,49.8521,24.0285,synthetic:seed42,true
+INT_LV_40,,INT-LV-40,Перехрестя INT-LV-40,Intersection INT-LV-40,true,concrete,moderate,49.83,24.0325,synthetic:seed42,true
+INT_LV_41,,INT-LV-41,Перехрестя INT-LV-41,Intersection INT-LV-41,true,concrete,medium,49.8064,23.9842,synthetic:seed42,true

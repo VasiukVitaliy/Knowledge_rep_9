@@ -1,0 +1,38 @@
+digraph G {
+  graph [rankdir=TB, fontname="Helvetica", fontsize=11, nodesep=0.5, ranksep=0.9, pad=0.3, label="Графова схема (LPG) — моніторинг дорожнього руху. Усі зв'язки мають властивості: source, confidence, validFrom", labelloc=t];
+  node [shape=box, style="rounded,filled", fillcolor="#E8F0FE", color="#3367D6", fontname="Helvetica", fontsize=10];
+  edge [fontname="Helvetica", fontsize=8, color="#555555"];
+  Intersection [label="Intersection\n+RoadInfrastructureElement\nuid, code, has_lights,\nsurface_type, wear_level, lat, lon"];
+  RoadSegment [label="RoadSegment\n+RoadInfrastructureElement\nuid, road_name, lanes_count,\nlength_m, speed_limit"];
+  SensorDevice [label="SensorDevice\n+VideoCamera|RadarSensor|InductiveLoop\nuid, install_date, lat, lon"];
+  TrafficLight [label="TrafficLight\nuid, mode, current_phase,\ncycle_duration"];
+  Vehicle [label="Vehicle\n+PassengerCar|Truck|EmergencyCar|PublicTransport\nuid, direction, speed, timestamp"];
+  Driver [label="Driver\nuid, license_category,\nroute_preference, travel_history"];
+  TrafficAccident [label="TrafficAccident\n+TrafficEvent\nuid, incident_type, status,\nblocked_lanes, start_time", fillcolor="#FDE8E8", color="#C0392B"];
+  TrafficCongestion [label="TrafficCongestion\n+TrafficEvent\nuid, severity_level,\navg_speed, duration_min", fillcolor="#FDE8E8", color="#C0392B"];
+  Route [label="Route\nuid, est_travel_time_min,\nload_rating, total_length_km"];
+  DataProcess [label="DataProcess\n+DataCollection|DataAnalysis|Planning|Control\nuid, code", fillcolor="#E8F8EE", color="#1E8449"];
+  SensorDevice -> Vehicle [label="DETECTS"];
+  SensorDevice -> TrafficAccident [label="REGISTERS"];
+  SensorDevice -> TrafficCongestion [label="REGISTERS"];
+  SensorDevice -> Intersection [label="MOUNTED_ON"];
+  SensorDevice -> RoadSegment [label="MOUNTED_ON"];
+  TrafficAccident -> RoadSegment [label="OCCURS_ON"];
+  TrafficCongestion -> RoadSegment [label="OCCURS_ON"];
+  Vehicle -> RoadSegment [label="MOVES_ALONG"];
+  Vehicle -> Intersection [label="CROSSES"];
+  Driver -> Vehicle [label="DRIVES"];
+  Vehicle -> TrafficAccident [label="INVOLVED_IN\nRESPONDS_TO (EmergencyCar)"];
+  TrafficAccident -> TrafficCongestion [label="CAUSES"];
+  TrafficCongestion -> Route [label="AFFECTS_ROUTE"];
+  Route -> RoadSegment [label="PASSES_THROUGH"];
+  Route -> Driver [label="RECOMMENDED_TO"];
+  RoadSegment -> Intersection [label="CONNECTS_TO"];
+  TrafficLight -> Intersection [label="REGULATES"];
+  DataProcess -> TrafficLight [label="ADJUSTS"];
+  DataProcess -> Vehicle [label="NOTIFIES"];
+  DataProcess -> TrafficAccident [label="CLASSIFIES"];
+  DataProcess -> Route [label="PRODUCES_ROUTE"];
+  DataProcess -> Driver [label="RECOMMENDS_TO"];
+  DataProcess -> DataProcess [label="SUPPLIES_DATA_TO\nIS_BASIS_FOR"];
+}

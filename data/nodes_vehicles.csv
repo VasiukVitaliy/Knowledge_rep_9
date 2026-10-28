@@ -1,0 +1,35 @@
+uid,subtype,code,name_uk,name_en,direction,speed,latitude,longitude,timestamp,source,synthetic
+BUS_A05,PublicTransport,BUS-A05,Автобус A05,Bus A05,East,4.0,49.8412,24.0245,2026-10-04T18:15:00+00:00,ontology:lab7,false
+AA5821KP,PassengerCar,AA5821KP,Легковик AA5821KP,Passenger car AA5821KP,South,12.0,49.8379,24.0268,2026-10-04T18:15:00+00:00,ontology:lab7,false
+AMB_02,EmergencyCar,AMB-02,Швидка AMB-02,Ambulance AMB-02,East,58.0,49.8408,24.0236,2026-10-04T18:12:00+00:00,ontology:lab7,false
+AMB_01,EmergencyCar,AMB-01,Швидка AMB-01,Ambulance AMB-01,,,,,,ontology:lab7,false
+FIRE_01,EmergencyCar,FIRE-01,Пожежна FIRE-01,Fire engine FIRE-01,North,55.0,49.8374,24.0209,2026-10-04T18:12:00+00:00,ontology:lab7,false
+BC3055IT,Truck,BC3055IT,Вантажівка BC3055IT,Truck BC3055IT,West,0.0,49.8395,24.023,2026-10-04T16:30:00+00:00,ontology:lab7,false
+BC7410HM,PassengerCar,BC7410HM,Легковик BC7410HM,Passenger car BC7410HM,East,5.0,49.8402,24.022,2026-10-04T18:15:00+00:00,ontology:lab7,false
+BC1234AA,PassengerCar,BC1234AA,Легковик BC1234AA,Passenger car BC1234AA,North,48.5,49.8397,24.0297,2026-10-04T18:15:00+00:00,ontology:lab7,false
+BC4000IT,PassengerCar,BC4000IT,Легковик BC4000IT,Passenger car BC4000IT,East,38.5,49.828,24.0683,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4037KA,Truck,BC4037KA,Вантажівка BC4037KA,Truck BC4037KA,North,35.8,49.8242,24.0508,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4074HP,PublicTransport,BC4074HP,Автобус BC4074HP,Bus BC4074HP,East,25.9,49.8664,24.0629,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4111IT,PassengerCar,BC4111IT,Легковик BC4111IT,Passenger car BC4111IT,South,11.5,49.8465,24.0141,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4148IT,PassengerCar,BC4148IT,Легковик BC4148IT,Passenger car BC4148IT,West,26.5,49.8473,24.026,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4185HP,Truck,BC4185HP,Вантажівка BC4185HP,Truck BC4185HP,East,13.5,49.8139,23.9822,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4222HP,PublicTransport,BC4222HP,Автобус BC4222HP,Bus BC4222HP,West,29.7,49.8171,24.039,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4259KA,PassengerCar,BC4259KA,Легковик BC4259KA,Passenger car BC4259KA,West,8.0,49.8325,24.0278,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4296HP,PassengerCar,BC4296HP,Легковик BC4296HP,Passenger car BC4296HP,West,27.0,49.8526,24.0556,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4333IT,Truck,BC4333IT,Вантажівка BC4333IT,Truck BC4333IT,East,19.2,49.8378,23.9925,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4370XO,PublicTransport,BC4370XO,Автобус BC4370XO,Bus BC4370XO,North,12.4,49.8294,24.0614,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4407XO,PassengerCar,BC4407XO,Легковик BC4407XO,Passenger car BC4407XO,South,29.3,49.8191,24.0237,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4444KA,PassengerCar,BC4444KA,Легковик BC4444KA,Passenger car BC4444KA,West,35.5,49.8464,23.9876,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4481IT,Truck,BC4481IT,Вантажівка BC4481IT,Truck BC4481IT,West,16.7,49.8666,24.0179,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4518KA,PublicTransport,BC4518KA,Автобус BC4518KA,Bus BC4518KA,North,57.0,49.814,23.9818,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4555IT,PassengerCar,BC4555IT,Легковик BC4555IT,Passenger car BC4555IT,South,36.4,49.8675,24.0447,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4592KA,PassengerCar,BC4592KA,Легковик BC4592KA,Passenger car BC4592KA,South,6.1,49.8541,24.0565,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4629KA,Truck,BC4629KA,Вантажівка BC4629KA,Truck BC4629KA,West,49.3,49.8074,24.0665,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4666IT,PublicTransport,BC4666IT,Автобус BC4666IT,Bus BC4666IT,East,51.1,49.8582,23.9878,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+BC4703HP,PassengerCar,BC4703HP,Легковик BC4703HP,Passenger car BC4703HP,West,12.7,49.8558,24.0106,2026-10-04T18:15:00+00:00,synthetic:seed42,true
+AMB_03,EmergencyCar,AMB-03,Швидка AMB-03,Ambulance AMB-03,East,53.0,49.8534,23.9958,2026-10-04T18:12:00+00:00,synthetic:seed42,true
+AMB_04,EmergencyCar,AMB-04,Швидка AMB-04,Ambulance AMB-04,West,66.6,49.8127,24.0327,2026-10-04T18:12:00+00:00,synthetic:seed42,true
+AMB_05,EmergencyCar,AMB-05,Швидка AMB-05,Ambulance AMB-05,West,43.9,49.8233,24.0403,2026-10-04T18:12:00+00:00,synthetic:seed42,true
+AMB_06,EmergencyCar,AMB-06,Швидка AMB-06,Ambulance AMB-06,West,57.7,49.8202,24.0651,2026-10-04T18:12:00+00:00,synthetic:seed42,true
+AMB_07,EmergencyCar,AMB-07,Швидка AMB-07,Ambulance AMB-07,West,33.5,49.8177,23.9904,2026-10-04T18:12:00+00:00,synthetic:seed42,true
+AMB_08,EmergencyCar,AMB-08,Швидка AMB-08,Ambulance AMB-08,North,56.3,49.838,24.0172,2026-10-04T18:12:00+00:00,synthetic:seed42,true

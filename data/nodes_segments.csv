@@ -1,0 +1,32 @@
+uid,subtype,code,name_uk,name_en,road_name,lanes_count,length_m,speed_limit,surface_type,wear_level,source,synthetic
+SEC_ST_07,,SEC-ST-07,Вулиця Городоцька (SEC-ST-07),Horodotska St. (SEC-ST-07),Horodotska St.,2,650,50,asphalt,medium,ontology:lab7,false
+SEC_ST_11,,SEC-ST-11,Проспект Чорновола (SEC-ST-11),Chornovola Ave. (SEC-ST-11),Chornovola Ave.,4,1200,60,asphalt,medium,ontology:lab7,false
+SEC_ST_03,,SEC-ST-03,Вулиця Стрийська (SEC-ST-03),Stryiska St. (SEC-ST-03),Stryiska St.,3,820,50,asphalt,low,ontology:lab7,false
+SEC_ST_12,,SEC-ST-12,Вулиця Пасічна (SEC-ST-12),Pasichna St. (SEC-ST-12),Pasichna St.,2,1280,60,asphalt + cobblestone,medium,synthetic:seed42,true
+SEC_ST_13,,SEC-ST-13,Вулиця Наукова (SEC-ST-13),Naukova St. (SEC-ST-13),Naukova St.,3,320,40,asphalt + cobblestone,moderate,synthetic:seed42,true
+SEC_ST_14,,SEC-ST-14,Вулиця Кульпарківська (SEC-ST-14),Kulparkivska St. (SEC-ST-14),Kulparkivska St.,3,580,50,concrete,low,synthetic:seed42,true
+SEC_ST_15,,SEC-ST-15,Вулиця Шевченка (SEC-ST-15),Shevchenka Ave. (SEC-ST-15),Shevchenka Ave.,2,970,50,asphalt + cobblestone,low,synthetic:seed42,true
+SEC_ST_16,,SEC-ST-16,Вулиця Кульпарківська (SEC-ST-16),Kulparkivska St. (SEC-ST-16),Kulparkivska St.,2,690,50,asphalt,moderate,synthetic:seed42,true
+SEC_ST_17,,SEC-ST-17,Вулиця Наукова (SEC-ST-17),Naukova St. (SEC-ST-17),Naukova St.,2,1120,60,asphalt,low,synthetic:seed42,true
+SEC_ST_18,,SEC-ST-18,Вулиця Зелена (SEC-ST-18),Zelena St. (SEC-ST-18),Zelena St.,3,910,40,asphalt,moderate,synthetic:seed42,true
+SEC_ST_19,,SEC-ST-19,Вулиця Стрийська (SEC-ST-19),Stryiska St. (SEC-ST-19),Stryiska St.,2,1540,40,asphalt + cobblestone,low,synthetic:seed42,true
+SEC_ST_20,,SEC-ST-20,Вулиця Чорновола (SEC-ST-20),Chornovola Ave. (SEC-ST-20),Chornovola Ave.,4,720,50,asphalt + cobblestone,moderate,synthetic:seed42,true
+SEC_ST_21,,SEC-ST-21,Вулиця Пасічна (SEC-ST-21),Pasichna St. (SEC-ST-21),Pasichna St.,2,810,50,concrete,moderate,synthetic:seed42,true
+SEC_ST_22,,SEC-ST-22,Вулиця Зелена (SEC-ST-22),Zelena St. (SEC-ST-22),Zelena St.,4,1450,40,asphalt,low,synthetic:seed42,true
+SEC_ST_23,,SEC-ST-23,Вулиця Стрийська (SEC-ST-23),Stryiska St. (SEC-ST-23),Stryiska St.,3,350,50,asphalt + cobblestone,low,synthetic:seed42,true
+SEC_ST_24,,SEC-ST-24,Вулиця Городоцька (SEC-ST-24),Horodotska St. (SEC-ST-24),Horodotska St.,2,450,50,asphalt,low,synthetic:seed42,true
+SEC_ST_25,,SEC-ST-25,Вулиця Зелена (SEC-ST-25),Zelena St. (SEC-ST-25),Zelena St.,2,900,50,asphalt + cobblestone,medium,synthetic:seed42,true
+SEC_ST_26,,SEC-ST-26,Вулиця Личаківська (SEC-ST-26),Lychakivska St. (SEC-ST-26),Lychakivska St.,2,1510,50,concrete,medium,synthetic:seed42,true
+SEC_ST_27,,SEC-ST-27,Вулиця Личаківська (SEC-ST-27),Lychakivska St. (SEC-ST-27),Lychakivska St.,2,540,60,concrete,medium,synthetic:seed42,true
+SEC_ST_28,,SEC-ST-28,Вулиця Пасічна (SEC-ST-28),Pasichna St. (SEC-ST-28),Pasichna St.,4,430,40,asphalt,medium,synthetic:seed42,true
+SEC_ST_29,,SEC-ST-29,Вулиця Зелена (SEC-ST-29),Zelena St. (SEC-ST-29),Zelena St.,2,930,50,asphalt,moderate,synthetic:seed42,true
+SEC_ST_30,,SEC-ST-30,Вулиця Шевченка (SEC-ST-30),Shevchenka Ave. (SEC-ST-30),Shevchenka Ave.,2,1380,50,concrete,medium,synthetic:seed42,true
+SEC_ST_31,,SEC-ST-31,Вулиця Личаківська (SEC-ST-31),Lychakivska St. (SEC-ST-31),Lychakivska St.,2,1430,40,asphalt,moderate,synthetic:seed42,true
+SEC_ST_32,,SEC-ST-32,Вулиця Наукова (SEC-ST-32),Naukova St. (SEC-ST-32),Naukova St.,2,530,50,asphalt,medium,synthetic:seed42,true
+SEC_ST_33,,SEC-ST-33,Вулиця Личаківська (SEC-ST-33),Lychakivska St. (SEC-ST-33),Lychakivska St.,4,450,50,concrete,low,synthetic:seed42,true
+SEC_ST_34,,SEC-ST-34,Вулиця Шевченка (SEC-ST-34),Shevchenka Ave. (SEC-ST-34),Shevchenka Ave.,3,1380,60,asphalt,low,synthetic:seed42,true
+SEC_ST_35,,SEC-ST-35,Вулиця Городоцька (SEC-ST-35),Horodotska St. (SEC-ST-35),Horodotska St.,2,1100,40,asphalt,moderate,synthetic:seed42,true
+SEC_ST_36,,SEC-ST-36,Вулиця Наукова (SEC-ST-36),Naukova St. (SEC-ST-36),Naukova St.,2,440,40,asphalt,low,synthetic:seed42,true
+SEC_ST_37,,SEC-ST-37,Вулиця Личаківська (SEC-ST-37),Lychakivska St. (SEC-ST-37),Lychakivska St.,4,600,50,asphalt + cobblestone,moderate,synthetic:seed42,true
+SEC_ST_38,,SEC-ST-38,Вулиця Стрийська (SEC-ST-38),Stryiska St. (SEC-ST-38),Stryiska St.,4,1100,50,asphalt,moderate,synthetic:seed42,true
+SEC_ST_39,,SEC-ST-39,Вулиця Личаківська (SEC-ST-39),Lychakivska St. (SEC-ST-39),Lychakivska St.,3,1310,50,asphalt + cobblestone,moderate,synthetic:seed42,true

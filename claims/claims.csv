@@ -1,0 +1,17 @@
+id,claim,type,source,verification_level,status,comment
+c01,"Граф містить 227 вузлів і 486 зв'язків у 22 типах (47 вузлів і 98 зв'язків — реальні з ЛР 7)",факт,make_graph_data.py; reference.py,V2,verified,"Підраховано двічі незалежно (генератор і reference.py); у Neo4j звірити через import/03_verify.cypher"
+c02,"Синтетичні дані (180 вузлів, 388 зв'язків) згенеровано seed=42 і позначено synthetic=true / source=synthetic:seed42",факт,make_graph_data.py,V2,verified,Потрібні для виконання вимоги ≥100/≥200; у звіті декларовано
+c03,"Усі 98 зв'язків онтології перенесено без втрат (22 типи, напрям збережено)",факт,make_graph_data.py vs traffic_monitoring.jsonld,V2,verified,"98 = сума object-assertions ЛР 7 (ручний підрахунок за Counter у ході аналізу)"
+c04,"v1: (INC_317,R_OPT_3),(INC_319,R_OPT_5) — результат q5 на реальному підграфі",факт,ручне виведення з jsonld; reference.py,V2,verified,"Ручне виведення і код збіглися; Neo4j — звірити"
+c05,"Вплив INC_317 до глибини 3: CONG_881 → R_OPT_3 → DRV_9041",факт,ручне виведення з jsonld; reference.py,V2,verified,"Збіг ручного і програмного результату; Neo4j — звірити"
+c06,"Активні ДТП реальні: INC_317 і INC_319; водії DRV_9041 і DRV_9043",факт,ручне виведення з jsonld; reference.py,V2,verified,
+c07,"Результати q01–q11 у Neo4j збігаються з еталоном reference.py",гіпотеза,docs/cypher_results_auto.md,V2,pending,Підтвердити після python run_queries.py
+c08,"Cypher-скрипти (import/*.cypher, queries/*.cypher) синтаксично коректні у Neo4j 5.x",гіпотеза,run_import.py; run_queries.py,V2,pending,"Скрипти написано з допомогою LLM і не запускалися в Neo4j під час підготовки"
+c09,"Повторний імпорт не змінює кількість вузлів і зв'язків (MERGE за uid)",гіпотеза,docs/import_log.md,V2,pending,Підтвердити python run_import.py
+c10,"PageRank-хаби: INT_LV_12, INT_LV_21, INT_LV_07",гіпотеза,reference.py (формула GDS); docs/gds_results_auto.md,V2,pending,Підтвердити результатом GDS
+c11,"Louvain виділяє ≥ 3 спільноти",гіпотеза,reference.py (networkx: 11 спільнот); GDS,V2,pending,Підтвердити результатом GDS (кількість може відрізнятися)
+c12,"Індекс seg_road_name замінює NodeByLabelScan на NodeIndexSeek",гіпотеза,docs/profile_auto.md,V2,pending,Підтвердити PROFILE
+c13,"Interpretation «PageRank-хаби = вузли, чия помилка найбільше поширюється»",гіпотеза,інтерпретація (LLM-чернетка),V1,pending,Це змістовна інтерпретація; на синтетичних даних — лише ілюстрація
+c14,"Text-to-Cypher: частка правильних запитів v1/v2",факт,docs/t2c_v1_detail.json; docs/t2c_v2_detail.json,V4,pending,Заповнюється після python t2c_pipeline.py v1 / v2
+c15,"Відхилено: ‘у Neo4j Community є ролі для read-only користувача’",гіпотеза,чернетка LLM,V1,rejected,"RBAC лише в Enterprise/Aura; у Community захист = READ_ACCESS-сесія + cypher_guard"
+c16,"Відхилено: ‘Aura Free підтримує GDS’",гіпотеза,чернетка LLM,V1,rejected,"Aura Free не містить GDS; потрібен Docker/Desktop із плагіном"
