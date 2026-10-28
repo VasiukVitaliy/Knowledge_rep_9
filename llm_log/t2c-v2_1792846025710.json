@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T15:47:05.709726",
+  "model": "gemini-3.8-flash",
+  "temperature": 0,
+  "max_tokens": 4000,
+  "seed": "n/a",
+  "prompt_version": "t2c-v2",
+  "question": "Які маршрути рекомендовано водієві DRV_9041?",
+  "raw_output": "MATCH (r:Route)-[:RECOMMENDED_TO]->(d:Driver {uid: 'DRV_9041'})\nRETURN r.uid",
+  "finish_reason": "stop",
+  "api_error": "",
+  "human_decision": "accepted: result matches gold",
+  "system_prompt_sha256": "fbc5fd8b8bbcb345"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T14:40:26.084965",
+  "model": "gemini-3.8-flash",
+  "temperature": 0,
+  "max_tokens": 4000,
+  "seed": "n/a",
+  "prompt_version": "t2c-v1",
+  "question": "Яке обмеження швидкості на сегменті SEC_ST_03?",
+  "raw_output": "MATCH (r:RoadSegment {code: 'SEC_ST_03'})\nRETURN r.speed_limit",
+  "finish_reason": "stop",
+  "api_error": "",
+  "human_decision": "rejected: wrong result",
+  "system_prompt_sha256": "c2d56aa981927033"
+}

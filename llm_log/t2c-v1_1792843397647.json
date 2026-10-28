@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-24T15:03:17.647999",
+  "model": "gemini-3.8-flash",
+  "temperature": 0,
+  "max_tokens": 4000,
+  "seed": "n/a",
+  "prompt_version": "t2c-v1",
+  "question": "Які перехрестя з'єднані більш ніж із трьома сегментами доріг?",
+  "raw_output": "MATCH (rs:RoadSegment)-[:CONNECTS_TO]->(i:Intersection)\nWITH i, count(rs) AS segments_count\nWHERE segments_count > 3\nRETURN i, segments_count",
+  "finish_reason": "stop",
+  "api_error": "",
+  "human_decision": "rejected: wrong result",
+  "system_prompt_sha256": "c2d56aa981927033"
+}
